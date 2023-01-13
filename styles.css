@@ -241,17 +241,19 @@
    background-color: #272a2a;
    border-radius: 20px;
    margin: 5rem auto;
+   text-align: center;
 }
 .h3-text-div {
    width: 95%;
    margin: auto;
+   text-align: center;
 }
 .h3-text:first-child{
    margin-top: 5rem;
 }
 .h3-text {
    font-size: 2rem;
-   display: inline-flex;
+   display: inline-block;
    padding: 2.5rem 0;
    width: 100%;
    border-radius: 50px;
